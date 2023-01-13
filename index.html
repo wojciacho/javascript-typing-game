@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6b2ac0087a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Typing Game</title>
+  </head>
+  <body>
+    <button class="settings-button">
+      <i class="fas fa-cog"></i>
+    </button>
+    <div class="settings">
+      <form id="setting">
+        <div>
+          <label for="difficulty">Difficulty</label>
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="game-container">
+      <h2>Typing Game</h2>
+      <small>Type the following word:</small>
+      <h1 class="word"></h1>
+      <input
+        type="text"
+        id="text"
+        autocomplete="off"
+        placeholder="Type the word here"
+      />
+
+      <p class="time">Time left: <span id="time"></span></p>
+      <p class="score">Score: <span id="score"></span></p>
+
+      <div class="end-game-container"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
