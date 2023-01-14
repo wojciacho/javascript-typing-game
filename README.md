@@ -7,9 +7,9 @@ This app is adding random word from api.
 You can also set difficulty levels in this game.
 
 Difficulty levels:
-Easy - is adding 8 seconds to the time
-Medium - is adding 6 seconds to the time
-Hard - is adding 4 seconds to the time
+* Easy - is adding 8 seconds to the time
+* Medium - is adding 6 seconds to the time
+* Hard - is adding 4 seconds to the time
 
 
 I used the fetch method to request data from a server.
